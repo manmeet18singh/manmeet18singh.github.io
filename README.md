@@ -1,1 +1,0 @@
-# manmeet18singh.github.io
