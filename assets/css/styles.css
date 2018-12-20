@@ -1,5 +1,7 @@
 body {
-    background-image: linear-gradient(#feb47b, #ff7e5f);
+    /* background-image: linear-gradient(#7ed0f7, #3d63e0); */
+    background-image: url("/assets/img/interests.png");
+    background-repeat: repeat;
 }
 
 #title {
