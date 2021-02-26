@@ -8,190 +8,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="icon" type="image/png" href="assets/img/Logo.png">
+ 
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/styles.css">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Patrick+Hand+SC|Playfair+Display+SC|Staatliches" rel="stylesheet">
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body class="bg-light">
-  <main>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html" id="navName">Manmeet Singh
-        <img src="assets/img/Logo.png" width="40" height="40" class="d-inline-block align-top mx-2">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto" id="navItems">
-          <a class="nav-item nav-link" href="#abtMe">About</a>
-          <a class="nav-item nav-link" href="#Prj">Portfolio</a>
-          <a class="nav-item nav-link" href="assets/resume.pdf">Resume</a>
-          <a class="nav-item nav-link" href="#contact">Contact</a>
+<body>
+  <div class="container d-flex flex-column min-vh-100 justify-content-center align-items-center">
+    <div class="row">
+       <div class="col-sm">
+         <img src="/assets/img/Logo.png" alt="" class="logo img-fluid mx-auto d-block">
         </div>
-      </div>
-    </nav>
-
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container-fluid my-5">
-        <br><br>
-        <h1 class="d-flex justify-content-center" id="jumboTitle">Create.</h1>
-        <p class="lead d-flex justify-content-center" id="jumboSub">Let's Do Something Together</p>
-        <br><br>
+        <div class="col-sm d-flex flex-column justify-content-center align-items-center">
+          <div class="list-group">
+            <a href="/about.html" class="name">MANMEET SINGH</a>
+            </div>
+                <div class="list-group linkList">
+                  <a href="https://www.linkedin.com/in/manmeet18singh/" class="">LINKEDIN</a>
+                  <a href="/assets/resume.pdf" class="">RESUME</a>
+                  <a href="https://github.com/manmeet18singh?tab=repositories" class="">GITHUB</a>
+                  <a href="mailto:singhmanmeetwork@gmail.com" class="">EMAIL</a>
+                </div>
+        </div>
       </div>
     </div>
-
-    <a name="abtMe">
-      <div class="container-fluid">
-        <div class="row">
-          <img src="assets/img/cropPic.jpg" class="rounded-circle mx-auto w-25 h-25" id="pflPic">
-        </div>
-        <div class="row d-flex justify-content-center" id="abtme">
-          <h1>About <span class="me">Me.</span></h1>
-        </div>
-
-        <div class="row">
-          <div class="container-fluid" style="background-color:rgb(212, 219, 226)">
-            <p class="text-justify py-5" id="abt">
-              As long as I can remember, technology has peaked my interest. I have always loved video games and the
-              art, music and stories that go along with them. I guess that’s where my love to be hands on and make
-              things comes from. My interest in technology allowed me to choose computer science as a medium for art
-              and creation. I had previously been using programs like the Adobe Suite, FL Studio etc. to make different
-              projects and I eventually decided to further develop my skills as a creator and choose to study Computer
-              Science. At the recommendations of my family and friends I choose to pursue computer science at the
-              University at Buffalo. The major has taught me much and I hope to further develop my skills. I look
-              forward to developing my skills even further as a software engineer!
-            </p>
-          </div>
-        </div>
-
-        <div class="row">
-          <img src="assets/img/Logo.png" class="w-25 h-25 mx-auto my-3" id="logo">
-        </div>
-      </div>
-    </a>
-
-    <a name="Prj">
-      <div class="container-fluid" style="background-color:rgb(212, 219, 226)">
-        <div class="row d-flex justify-content-center" id="prj">
-          <h1 class="my-2">Projects.</h1>
-        </div>
-        <div class="row" id="smCard">
-          <div class="card mx-4 mb-2">
-            <img src="assets/img/brad.png" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Project brad</h5>
-              <p class="card-text">As breast cancer is such a pressing medical issue (even effecting one of the lives
-                of the developers), we want to play our part in the fight against breast cancer. brad is an application
-                used by doctors. Doctors can input results from an FNA procedure (fine needle aspiration) on a breast
-                mass, and the system will classify the mass as being a benign or malignant tumor. brad is built as a
-                full scale web application with a python back-end to do the heavy lifting.</p>
-              <a href="https://devpost.com/software/b-r-a-d-breast-cancer-risk-analysis-diagnostics" class="btn float-right"
-                id="cardBtn">Check It Out!</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="row" id="smCard">
-          <div class="card mx-4 my-2">
-            <img src="assets/img/beak.png" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Beak</h5>
-              <p class="card-text">Audio game created in JavaScript, P5.js, and HTML. This project was an experiment
-                that me and my partner created. In the game, you play as a bird who tries to defeat an enemy. The bird
-                has
-                charge animation and the enemy bashes into you, trying to delete you from the game world. We tried to
-                use unique, original audio for movement and animation. The color palette, audio and character design
-                were
-                all decided upon by us and we tried to use these to create an atmosphere for the game.
-              </p>
-              <a href="https://github.com/manmeet18singh/Beak" class="btn float-right" id="cardBtn">Check
-                It Out!</a>
-            </div>
-          </div>
-        </div>
-        <div class="card-deck pb-3">
-          <div class="card">
-            <img class="card-img-top" src="assets/img/brad.png">
-            <div class="card-body">
-              <h5 class="card-title">Project brad</h5>
-              <p class="card-text">Winner of UB Hackathon 2018. As breast cancer is such a pressing medical issue (even
-                effecting one of the lives of the developers), we want to play our part in the fight against breast
-                cancer. brad is an application used by doctors. ...</p>
-            </div>
-            <div class="card-body">
-              <a href="https://devpost.com/software/b-r-a-d-breast-cancer-risk-analysis-diagnostics" class="btn float-right" id="cardBtn">Check
-                It Out!</a>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="assets/img/beak.png">
-            <div class="card-body">
-              <h5 class="card-title">Beak</h5>
-              <p class="card-text"> Audio game created in JavaScript, P5.js. This project was an experiment that me and
-                my partner created. In the game, you play as a bird who tries to defeat an enemy. The bird has charge
-                animation and the enemy bashes into you, trying to delete you from the game world. ... </p>
-              <a href="https://github.com/manmeet18singh/Beak" class="btn float-right" id="cardBtn">Check
-                It Out!</a>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="assets/img/way.png">
-            <div class="card-body">
-              <h5 class="card-title">My Waypoints</h5>
-              <p class="card-text">MyWaypoints is a distributed web application that provides users enhanced
-                information about a travel route. It uses the Google Maps API as well as the Open Weather API. This was
-                my first project using APIs, Angular.js, Node.js, Express.js, and Mongo.js. </p>
-              <a href="https://github.com/manmeet18singh/MyWaypoints" class="btn float-right" id="cardBtn">Check
-                It Out!</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </a>
-
-    <a name="contact">
-      <div class="container-fluid bg-light">
-        <div class="row d-flex justify-content-center" id="findme">
-          <h1>Find Me <span class="here">Here.</span></h1>
-        </div>
-        <div class="row d-flex justify-content-center">
-          <a href="mailto:singhmanmeetwork@gmail.com">
-            <img src="assets/img/mail.png" class="img-fluid" id="mail">
-          </a>
-          <a href="https://www.linkedin.com/in/manmeet18singh/">
-            <img src="assets/img/linked.png" class="img-fluid" id="link">
-          </a>
-          <a href="assets/resume.pdf">
-            <img src="assets/img/resume.png" class="img-fluid" id="res">
-          </a>
-          <a href="https://github.com/manmeet18singh?tab=repositories">
-            <img src="assets/img/github.png" class="img-fluid" id="git">
-          </a>
-          <a href="https://twitter.com/singh18manmeet">
-            <img src="assets/img/twitter.png" class="img-fluid" id="twit">
-          </a>
-        </div>
-      </div>
-    </a>
-  </main>
+ 
+  
+  
 
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 
 </html>
