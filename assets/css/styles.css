@@ -23,8 +23,8 @@ body {
   .name {
     z-index: 1;
     color: black;
-    font-size: 64px;
-    align-self: flex-start;
+    font-size: 77px;
+    align-self: flex-end;
   }
 
   .name:hover {
@@ -49,10 +49,10 @@ body {
     padding-left: 0%;
     padding-right: 0%;
   }
-
-  /* .profile {
-  width: 50%;
-} */
+  
+  .aboutName {
+    align-self: flex-start;
+  {
 
   .recOrange {
     width: 392px;
@@ -152,6 +152,10 @@ body {
     margin-top: 10%;
     margin-bottom: 10%;
   }
+
+  .aboutName {
+    align-self: flex-start;
+  {
 
   /* @-webkit-keyframes rotate-90-ccw {
     0% {
